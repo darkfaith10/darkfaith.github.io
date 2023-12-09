@@ -1,0 +1,232 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+  }
+  
+  p{
+    color: #8f8f8f;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+}
+  
+  /* Headings */
+  .big-heading {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+   .section-heading {
+     font-size: 3rem;
+     line-height: 1.5rem;
+     margin: 2rem;
+   }
+  
+  /* ########## */
+  .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  /* section */
+  .white-section {
+    background-color: #fff;
+  }
+  
+  .colored-section {
+    background-color: #6C757D;
+    color: #fff;
+  }
+  
+  
+  #title {
+    text-align: left;
+  }
+  
+  /* Navbar */
+  
+  .navbar{
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item{
+    font-family: "Montserrat";
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+  
+  .nav-link{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+  }
+  
+  /* Download BUttons */
+  
+  .download-button{
+    margin: 5% 7% 5% 0;
+    
+  }
+  
+  /* title-image */
+  
+  .title-image{
+    width: 25%;
+    height: 58%;
+    transform: rotate(15deg);
+    position: absolute;
+    right: 10%;
+    border-radius: 3%;
+    border-style: solid;
+    border-top-color: black;
+    border-left-color: black;
+  }
+
+  /* skills section */
+
+#skills {
+    padding: 7% 15%;
+    position: relative;
+  
+  }
+  
+  .skills-title {
+    font-size: 2rem;
+  }
+  
+  .skills-box {
+    padding: 5%;
+  }
+
+  .skills-icon {
+    color: #495057;
+    margin-bottom: 2rem;
+  }
+  
+  .icon:hover {
+    color: #ff4c68;
+  }
+
+  .dropdown {
+    color: transparent;
+  }
+
+  /*projects*/
+
+  #projects {
+    padding: 100px;
+  }
+
+  .projects-row {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .projects-column {
+    flex: 0 0 30%;
+    margin-bottom: 20px;
+    padding: 3% 2%;
+  }
+  
+  .projects-text {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-header {
+    background-color: #DEE2E6;
+    padding: 10px;
+  }
+
+  .card-body {
+    flex: 1;
+    padding: 20px;
+    
+  }
+
+  .projects-text:hover {
+    color: #6C757D;
+
+  }
+
+
+
+
+
+
+  /*publications*/
+  #publications {
+    background-color: #CED4DA;
+  }
+  
+  .publications-text {
+    font-size: 2.5rem;
+  }
+  
+  .carousel-item {
+    padding: 7% 15%;
+  }
+  
+  .publications-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  .carousel-control-prev {
+    color: #212529;
+  }
+
+  .carousel-control-next {
+    color: #212529;
+  }
+  
+  
+
+
+
+
+
+#footer {
+    padding: 7% 20%;
+  }
+  
+  .footer-icons {
+    margin: 5% 2% 5% 0;
+  }
+
+  /* mobile view */
+
+  @media (max-width: 1029px){
+
+    #title {
+      text-align: center;
+  
+    }
+  
+  
+    .title-image {
+      position: static;
+      transform: rotate(0deg);
+      height: 90%;
+      width: 40%;
+  
+    }
+  }
