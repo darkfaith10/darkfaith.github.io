@@ -44,6 +44,7 @@
             <li class="nav-item"><a class="nav-link" href="#skills"> Skills</a></li>
             <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
             <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+            <li class="nav-item"><a class="nav-link" href="images/Vijay Kumar Singh Resume.pdf" download="Vijay_Kumar_Singh_resume.pdf" aria-label="Download Resume">Resume</a></li>
           </ul>
         </div>
       </nav>
@@ -55,14 +56,21 @@
       <div class="row">
         <div class="col-lg-6">
           <h1 class="big-heading">I am Vijay Kumar Singh.</h1>
-          <button type="button" class="btn btn-dark btn-lg download-button"> <i class="fa-solid fa-envelope"></i>
+          <button type="button" class="btn btn-dark btn-lg visit-button" id="contactButton"> <i class="fa-solid fa-envelope"></i>
             Contact Me</button>
           <a href="https://www.linkedin.com/in/vijay-kumar-singh-darkfaith/">
-            <button type="button" class="btn btn-outline-light btn-lg download-button"> <i
+            <button type="button" class="btn btn-outline-light btn-lg visit-button"> <i
                 class="fa-brands fa-linkedin-in"></i> LinkedIn </button></a>
         </div>
         <div class="col-lg-6 col-md-12">
           <img class="title-image" src="images/vijay.jpeg" alt="-profile-picture">
+        </div>
+      </div>
+      <div id="contactPopup" class="popup-card" style="display: none;">
+        <div class="popup-content">
+          <p>Name: Vijay Kumar Singh</p>
+          <a href="mailto:vijay061101@gmail.com"><p>Email: vijay061101@gmail.com</p></a>
+          <p>Phone: +917057648079</p>
         </div>
       </div>
 
@@ -71,32 +79,28 @@
 
   <!--skills-->
   <section class="white-section" id="skills">
+    <h2 class="section-heading skills-heading">Skills</h2>
+      
 
     <div class="row">
 
       <div class="col-lg-4 skills-box">
         <i class="fa-brands fa-java fa-2xl skills-icon"></i>
         <h3 class="skills-title">Java</h3>
-        <p>So easy to use, even your dog could do it.</p>
+        <p>Proficient, along with DSA.</p>
       </div>
 
       <div class="col-lg-4 skills-box">
         <i class="fa-brands fa-js fa-2xl skills-icon"></i>
         <h3 class="skills-title">JavaScript</h3>
-        <p>We have all the dogs, the greatest dogs.</p>
+        <p>Wrote over 3000 lines and used in Tapam.</p>
       </div>
 
       <div class="col-lg-4 skills-box">
         <i class="fa-solid fa-code fa-2xl skills-icon"></i>
         <h3 class="skills-title">MERN Stack</h3>
-        <p>Find the love of your dog's life or your money back.</p>
+        <p>Extensively used in projects, especially in Tapam.</p>
       </div>
-
-      <p>
-        <button type="button" class="btn btn-outline-dark" type="button" data-bs-toggle="collapse"
-          data-bs-target="#skills-expanded" aria-expanded="false" aria-controls="skills-expanded">Show all
-          Skills</button>
-      </p>
 
       <div class="collapse" id="skills-expanded">
         <div class="row">
@@ -104,43 +108,47 @@
           <div class="col-lg-4 skills-box">
             <i class="fa-brands fa-python fa-2xl skills-icon"></i>
             <h3 class="skills-title">Python</h3>
-            <p>So easy to use, even your dog could do it.</p>
+            <p>Made computer vision projects, Eg : Saving the Great Barrier Reef.</p>
           </div>
 
           <div class="col-lg-4 skills-box">
             <i class="fa-brands fa-android fa-2xl skills-icon"></i>
             <h3 class="skills-title">Flutter</h3>
-            <p>We have all the dogs, the greatest dogs.</p>
+            <p>Well versed along with Dart and MongoDB. Made Upakrith an Emergency Response App.</p>
           </div>
 
           <div class="col-lg-4 skills-box">
             <i class="fa-brands fa-github fa-2xl skills-icon"></i>
             <h3 class="skills-title">Git & Github</h3>
-            <p>Find the love of your dog's life or your money back.</p>
+            <p>Have knowledge of Version Control.</p>
           </div>
 
           <div class="col-lg-4 skills-box">
             <i class="fa-solid fa-at fa-2xl skills-icon"></i>
-            <h3 class="skills-title">OAuth</h3>
-            <p>So easy to use, even your dog could do it.</p>
+            <h3 class="skills-title">Authentication and Security</h3>
+            <p>Well Versed in using OAuth and different encryption libraries. Eg: MD5, bcrypt.</p>
           </div>
 
           <div class="col-lg-4 skills-box">
             <i class="fa-solid fa-cloud fa-2xl skills-icon"></i>
             <h3 class="skills-title">Google Cloud</h3>
-            <p>So easy to use, even your dog could do it.</p>
+            <p>Have beginner level knowledge of Google Cloud.</p>
           </div>
 
           <div class="col-lg-4 skills-box">
             <i class="fa-solid fa-link fa-2xl skills-icon"></i>
             <h3 class="skills-title">Rest APIs</h3>
-            <p>So easy to use, even your dog could do it.</p>
+            <p>Itermediate in using APIs.</p>
           </div>
 
         </div>
       </div>
 
-
+      <p>
+        <button type="button" class="btn btn-outline-dark" type="button" data-bs-toggle="collapse"
+          data-bs-target="#skills-expanded" aria-expanded="false" aria-controls="skills-expanded">Show all
+          Skills</button>
+      </p>
   </section>
 
   <!--projects-->
@@ -154,7 +162,7 @@
 
       <div class="projects-row">
 
-        <div class="projects-column col-lg-4 col-md-6">
+        <div class="projects-column col-lg-4 col-md-12">
           <a href="https://github.com/darkfaith10/tapam">
             <div class="card">
               <div class="card-header">
@@ -169,7 +177,7 @@
         </div>
 
 
-        <div class="projects-column col-lg-4 col-md-6">
+        <div class="projects-column col-lg-4 col-md-12">
           <a href="https://github.com/darkfaith10/upakrith">
             <div class="card">
               <div class="card-header">
@@ -185,7 +193,8 @@
         </div>
 
 
-        <div class="projects-column col-lg-4 col-md-6">
+        <div class="projects-column col-lg-4 col-md-12">
+          <a href="https://github.com/darkfaith10/savingGreatBarrierReef">
           <div class="card">
             <div class="card-header">
               <h3>Saving Great Barrier Reef</h3>
@@ -195,6 +204,7 @@
               <p>A computer vision program to detect Crown Thorn Starfish using SIFT and Random forest model.</p>
             </div>
           </div>
+        </a>
         </div>
 
       </div>
@@ -210,6 +220,7 @@
 
   <!--publications-->
   <section id="publications">
+    <h2 class="section-heading">Publications</h2>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -219,7 +230,7 @@
           <em>International E-Conference on computing and Data Science (ICCDS 2023)</em>
         </div>
         <div class="carousel-item">
-          <h2 class="publicatioins-text">Sports Biomechanics</h2>
+          <h2 class="publications-text">Sports Biomechanics</h2>
           <a href="images/sportsbiomechanics.png"><img class="publications-image" src="images/sportsbiomechanics.png"
               alt="sports bio cert"></a><br />
           <em>International Journal Of Innovative Research In Technology 157387 · Nov 25, 2022</em>
@@ -247,15 +258,16 @@
     <footer class="white-section" id="footer">
 
       <div class="footer-head">
-        <i class="fa fa-twitter footer-icons" aria-hidden="true"></i>
-        <i class="fa fa-github footer-icons" aria-hidden="true"></i>
-        <i class="fa-brands fa-linkedin-in footer-icons" aria-hidden="true"></i>
-        <i class="fa fa-envelope footer-icons" aria-hidden="true"></i>
+        <a href="images/Vijay Kumar Singh Resume.pdf" download="Vijay_Kumar_Singh_resume.pdf" aria-label="Download Resume"><i class="fa-solid fa-download footer-icons"></i></a>
+        <a href="https://github.com/darkfaith10"><i class="fa fa-github footer-icons" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/vijay-kumar-singh-darkfaith/"><i class="fa-brands fa-linkedin-in footer-icons" aria-hidden="true"></i></a>
+        <a href="mailto:vijay061101@gmail.com"><i class="fa fa-envelope footer-icons" aria-hidden="true"></i></a>
       </div>
       <p>© Copyright Vijay Kumar Singh</p>
 
     </footer>
   </section>
+  <script src="index.js"></script>
 
 </body>
 
