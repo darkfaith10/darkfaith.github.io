@@ -1,88 +1,102 @@
 body {
     font-family: "Montserrat";
     text-align: center;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat";
-  }
-  
-  p{
-    color: #8f8f8f;
-  }
+}
 
-  a {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+a {
     text-decoration: none;
     color: black;
 }
-  
-  /* Headings */
-  .big-heading {
+
+/* Headings */
+.big-heading {
     font-family: "Montserrat";
     font-size: 3.5rem;
     line-height: 1.5;
-  }
-  
-   .section-heading {
-     font-size: 3rem;
-     line-height: 1.5rem;
-     margin: 2rem;
-   }
-  
-  /* ########## */
-  .container-fluid {
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5rem;
+    margin: 2rem;
+}
+
+/* ########## */
+.container-fluid {
     padding: 3% 15% 7%;
-  }
-  
-  /* section */
-  .white-section {
+}
+
+/* section */
+.white-section {
     background-color: #fff;
-  }
-  
-  .colored-section {
+}
+
+.colored-section {
     background-color: #6C757D;
     color: #fff;
-  }
-  
-  
-  #title {
+}
+
+
+#title {
     text-align: left;
-  }
-  
-  /* Navbar */
-  
-  .navbar{
+}
+
+/* Navbar */
+
+.navbar {
     padding: 0 0 4.5rem;
-  }
-  
-  .navbar-brand {
+}
+
+.navbar-brand {
     font-family: "Ubuntu";
     font-size: 2.5rem;
     font-weight: bold;
-  }
-  
-  .nav-item{
+}
+
+.nav-item {
     font-family: "Montserrat";
-    padding-right: 18px;
-    padding-left: 18px;
-  }
-  
-  .nav-link{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.nav-link {
     font-family: "Montserrat";
     font-size: 1.5rem;
-  }
-  
-  /* Download BUttons */
-  
-  .download-button{
+}
+
+/* Download BUttons */
+
+.visit-button {
     margin: 5% 7% 5% 0;
-    
-  }
-  
-  /* title-image */
-  
-  .title-image{
+
+}
+
+/* title-image */
+
+.title-image {
+
     width: 25%;
+    height: 58%;
+    position: absolute;
+    right: 10%;
+    border-radius: 10rem;
+    border-style: solid;
+    border-color: #212529;
+
+    /* width: 25%;
     height: 58%;
     transform: rotate(15deg);
     position: absolute;
@@ -90,115 +104,137 @@ body {
     border-radius: 3%;
     border-style: solid;
     border-top-color: black;
-    border-left-color: black;
-  }
+    border-left-color: black; */
+}
 
-  /* skills section */
+.popup-card {
+    color: #6C757D;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  
+  .popup-content {
+    z-index: 3;
+  }
+/* skills section */
 
 #skills {
-    padding: 7% 15%;
+    padding: 5% 15%;
     position: relative;
-  
-  }
-  
-  .skills-title {
-    font-size: 2rem;
-  }
-  
-  .skills-box {
-    padding: 5%;
-  }
 
-  .skills-icon {
+}
+
+.skills-heading {
+    padding-bottom: 5%;
+}
+
+.skills-title {
+    font-size: 2rem;
+}
+
+.skills-box {
+    padding: 5%;
+}
+
+.skills-icon {
     color: #495057;
     margin-bottom: 2rem;
-  }
-  
-  .icon:hover {
+}
+
+.icon:hover {
     color: #ff4c68;
-  }
+}
 
-  .dropdown {
+.dropdown {
     color: transparent;
-  }
+}
 
-  /*projects*/
+/*projects*/
 
-  #projects {
-    padding: 100px;
-  }
+#projects {
+    padding: 30px;
+}
 
-  .projects-row {
+.projects-row {
     display: flex;
-    justify-content: space-between; 
-  }
-  
-  .projects-column {
+    justify-content: space-between;
+}
+
+.projects-column {
     flex: 0 0 30%;
     margin-bottom: 20px;
     padding: 3% 2%;
-  }
-  
-  .projects-text {
+}
+
+.projects-text {
     font-size: 1.5rem;
     line-height: 1.5rem;
-  }
+}
 
-  .card {
+.card {
     height: 100%;
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .card-header {
-    background-color: #DEE2E6;
+.card-header {
+    background-color: #6C757D;
     padding: 10px;
-  }
+    color: #fff;
+}
 
-  .card-body {
+.card-body {
     flex: 1;
     padding: 20px;
-    
-  }
 
-  .projects-text:hover {
+}
+
+.projects-text:hover {
     color: #6C757D;
 
-  }
+}
 
 
 
 
 
 
-  /*publications*/
-  #publications {
-    background-color: #CED4DA;
-  }
-  
-  .publications-text {
+/*publications*/
+#publications {
+    background-color: #6C757D;
+    color: white;
+    padding-top: 2%;
+    margin-top: 5%;
+}
+
+.publications-text {
     font-size: 2.5rem;
-  }
-  
-  .carousel-item {
+}
+
+.carousel-item {
     padding: 7% 15%;
-  }
-  
-  .publications-image {
+}
+
+.publications-image {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
-  }
+}
 
-  .carousel-control-prev {
+.carousel-control-prev {
     color: #212529;
-  }
+}
 
-  .carousel-control-next {
+.carousel-control-next {
     color: #212529;
-  }
-  
-  
+}
+
+
 
 
 
@@ -206,27 +242,39 @@ body {
 
 #footer {
     padding: 7% 20%;
-  }
-  
-  .footer-icons {
+}
+
+.footer-icons {
     margin: 5% 2% 5% 0;
-  }
+}
 
-  /* mobile view */
+/* mobile view */
 
-  @media (max-width: 1029px){
+@media (max-width: 1029px) {
 
     #title {
-      text-align: center;
-  
+        text-align: center;
+
     }
-  
-  
+
+
     .title-image {
-      position: static;
-      transform: rotate(0deg);
-      height: 90%;
-      width: 40%;
-  
+        visibility: hidden;
+        /* position: static;
+        transform: rotate(0deg);
+        height: 90%;
+        width: 40%; */
     }
-  }
+
+    .projects-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .projects-column {
+        width: 100%;
+        margin-right: 0;
+      }
+
+}
